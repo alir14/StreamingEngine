@@ -1,5 +1,12 @@
 ﻿  stdafx.cpp
+  StreamSwitchBoxManager.cpp
+  Server.cpp
+  Schedule.cpp
+  MultimediaManager.cpp
+  Media.cpp
+  Fallback.cpp
   ChronocastEngine.cpp
   BaseStreamManager.cpp
+  BaseStream.cpp
   Generating Code...
   ChronocastEngine.vcxproj -> D:\workspace\Z\ChronocastEngine\Debug\ChronocastEngine.exe
