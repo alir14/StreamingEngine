@@ -50,7 +50,6 @@ StreamSwitchBoxManager::StreamSwitchBoxManager()
 {
 }
 
-
 StreamSwitchBoxManager::~StreamSwitchBoxManager()
 {
 }

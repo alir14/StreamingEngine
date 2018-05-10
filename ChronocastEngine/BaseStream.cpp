@@ -10,6 +10,19 @@ BaseStream::BaseStream()
 
 BaseStream::~BaseStream()
 {
+	multiMediaManager.reset();
+}
+
+void BaseStream::StartStream()
+{
+}
+
+void BaseStream::ProcessStream()
+{
+}
+
+void BaseStream::ExecuteCommand(std::string script)
+{
 }
 
 void BaseStream::LoadingConfigValue()
@@ -24,7 +37,16 @@ void BaseStream::KillOldLocalFFMPEGProcesses()
 {
 }
 
-void BaseStream::ExecuteOnPlayoutServer(std::string script, std::string processReference, std::map<std::string, std::string> data)
+void BaseStream::ExecuteOnServer(std::string script, std::string processReference, std::map<std::string, std::string> data)
 {
+}
+
+void BaseStream::pushFillersIntoFile(std::string fileName, int fillersCount)
+{
+}
+
+bool BaseStream::IsRecordedFileExist(std::string file)
+{
+	return false;
 }
 

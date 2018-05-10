@@ -16,7 +16,6 @@ private:
 	bool CheckIfScheduleProcessFinish();
 	bool CheckIfFallbackProcessFinish();
 	bool CheckforTakeover();
-	void ProcessStream();
 	void ProcessLiveStream();
 	void ProcessFallbackStream();
 	void ProcessScheduleStream();
@@ -26,6 +25,7 @@ public:
 	StreamSwitchBoxManager();
 	~StreamSwitchBoxManager();
 	void StartProcess();
+	void ProcessStream();
 
 };
 
