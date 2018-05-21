@@ -1,33 +1,27 @@
 #pragma once
-#ifdef BASESTREAMENGINE_EXPORTS
-#define BASESTREAMENGINE_API __declspec(dllexport)
-#else
-#define BASESTREAMENGINE_API __declspec(dllimport)
-#endif
-
 #include <string>
 #include <memory>
 #include <map>
 #include "FFMPEGManager.h"
 
-class __declspec(dllexport) BaseStreamEngine
+class BaseStreamEngine
 {
 private:
-	std::map<std::string, std::string> configurationValue;
 	void ExecuteCommand(std::string script);
 protected:
+	std::map<std::string, std::string> configurationValue;
 	std::unique_ptr<FFMPEGManager> multiMediaManager;
-	void LoadingConfigValue();
-	void InitializeStreamData();
-	void KillOldLocalFFMPEGProcesses();
-	void ExecuteOnServer(std::string script, std::string processReference, std::map<std::string, std::string> data);
-	bool IsRecordedFileExist(std::string file);
+	__declspec(dllexport) void LoadingConfigValue();
+	__declspec(dllexport) void InitializeStreamData();
+	__declspec(dllexport) void KillOldLocalFFMPEGProcesses();
+	__declspec(dllexport) void ExecuteOnServer(std::string script, std::string processReference, std::map<std::string, std::string> data);
+	__declspec(dllexport) bool IsRecordedFileExist(std::string file);
 
 public:
-	BaseStreamEngine();
-	~BaseStreamEngine();
-	virtual void StartStream();
-	virtual void ProcessStream();
-	virtual void PushFillersIntoFile(std::string fileName, int fillersCount);
+	__declspec(dllexport) BaseStreamEngine();
+	__declspec(dllexport) ~BaseStreamEngine();
+	__declspec(dllexport) virtual void StartStream();
+	__declspec(dllexport) virtual void ProcessStream();
+	__declspec(dllexport) virtual void PushFillersIntoFile(std::string fileName, int fillersCount);
 };
 

@@ -150,7 +150,6 @@
     <ClInclude Include="BaseLiveStreamEngine.h" />
     <ClInclude Include="BaseStreamEngine.h" />
     <ClInclude Include="FFMPEGManager.h" />
-    <ClInclude Include="ServerModel.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -160,7 +159,6 @@
     <ClCompile Include="ChronocastFramework.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="FFMPEGManager.cpp" />
-    <ClCompile Include="ServerModel.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

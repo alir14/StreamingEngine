@@ -1,11 +1,6 @@
 #pragma once
-#ifdef BASELIVESTREAMENGINE_EXPORTS
-#define BASELIVESTREAMENGINE_API __declspec(dllexport)
-#else
-#define BASELIVESTREAMENGINE_API __declspec(dllimport)
-#endif
 
-class BaseLiveStreamEngine
+class __declspec(dllexport) BaseLiveStreamEngine
 {
 public:
 	BaseLiveStreamEngine();

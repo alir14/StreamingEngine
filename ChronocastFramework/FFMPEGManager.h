@@ -1,12 +1,5 @@
 #pragma once
 
-#ifdef FFMPEGMANAGER_EXPORT
-#define FFMPEGMANAGER_API __declspec(dllexport)
-#else
-#define FFMPEGMANAGER_API __declspec(dllimport)
-#endif 
-
-
 #include <string>
 #include <vector>
 class __declspec(dllexport) FFMPEGManager
