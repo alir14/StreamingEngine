@@ -24,28 +24,7 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Server.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Schedule.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Media.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="StreamSwitchBoxManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseStream.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MultimediaManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Fallback.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="PreRecordStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LiveStream.h">
@@ -57,10 +36,13 @@
     <ClInclude Include="FallBackStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BaseLiveStream.h">
+    <ClInclude Include="LiveFillerStream.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LiveFillerStream.h">
+    <ClInclude Include="NotifyStreamManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamWatcherManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -71,28 +53,7 @@
     <ClCompile Include="ChronocastEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Schedule.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Media.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="StreamSwitchBoxManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseStream.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MultimediaManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Fallback.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PreRecordStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LiveStream.cpp">
@@ -104,10 +65,13 @@
     <ClCompile Include="FallBackStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseLiveStream.cpp">
+    <ClCompile Include="LiveFillerStream.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LiveFillerStream.cpp">
+    <ClCompile Include="NotifyStreamManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamWatcherManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

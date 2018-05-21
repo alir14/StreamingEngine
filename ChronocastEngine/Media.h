@@ -1,8 +1,8 @@
-#pragma once
-class Media
-{
-public:
-	Media();
-	~Media();
-};
-
+//#pragma once
+//class Media
+//{
+//public:
+//	Media();
+//	~Media();
+//};
+//
