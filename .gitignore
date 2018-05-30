@@ -1,2 +1,6 @@
 
 Debug/
+
+\.vs/
+
+ChronocastEngine/ChronocastEngine\.vcxproj\.user
