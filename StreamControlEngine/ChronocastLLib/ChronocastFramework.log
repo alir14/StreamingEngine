@@ -1,6 +1,0 @@
-﻿  stdafx.cpp
-  FFMPEGManager.cpp
-  BaseStreamEngine.cpp
-  BaseLiveStreamEngine.cpp
-  Generating Code...
-  ChronocastFramework.vcxproj -> D:\workspace\ChronocastC++\StreamControlEngine\ChronocastLLib\ChronocastFramework.lib
