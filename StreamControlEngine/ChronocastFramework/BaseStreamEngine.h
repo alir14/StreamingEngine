@@ -11,7 +11,7 @@ private:
 	void ExecuteCommand(string script);
 protected:
 	map<string, string> configurationValue;
-	unique_ptr<FFMPEGManager> multiMediaManager;
+	shared_ptr<FFMPEGManager> multiMediaManager;
 	void LoadingConfigValue();
 	void InitializeStreamData();
 	void KillOldLocalFFMPEGProcesses();
