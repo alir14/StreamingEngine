@@ -30,6 +30,12 @@
     <ClInclude Include="FFMPEGManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BaseDataComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaDataComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -44,5 +50,14 @@
     <ClCompile Include="FFMPEGManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BaseDataComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaDataComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DllConfig.ini" />
   </ItemGroup>
 </Project>

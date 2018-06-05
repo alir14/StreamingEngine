@@ -10,3 +10,7 @@ BaseLiveStreamEngine::BaseLiveStreamEngine()
 BaseLiveStreamEngine::~BaseLiveStreamEngine()
 {
 }
+
+void BaseLiveStreamEngine::PushLiveStream()
+{
+}

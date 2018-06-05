@@ -3,6 +3,7 @@
 #include <memory>
 #include <map>
 #include "FFMPEGManager.h"
+#include "ConfigurationManager.h"
 
 using namespace std;
 class BaseStreamEngine
@@ -10,8 +11,10 @@ class BaseStreamEngine
 private:
 	void ExecuteCommand(string script);
 protected:
-	map<string, string> configurationValue;
+	int channelID;
 	shared_ptr<FFMPEGManager> multiMediaManager;
+	ConfigurationManager configurationManagerInstance;
+
 	void LoadingConfigValue();
 	void InitializeStreamData();
 	void KillOldLocalFFMPEGProcesses();
