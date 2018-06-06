@@ -158,7 +158,10 @@
     <ClInclude Include="BaseDataComponent.h" />
     <ClInclude Include="BaseLiveStreamEngine.h" />
     <ClInclude Include="BaseStreamEngine.h" />
+    <ClInclude Include="ConfigurationManager.h" />
     <ClInclude Include="FFMPEGManager.h" />
+    <ClInclude Include="LiveDataComponent.h" />
+    <ClInclude Include="LiveStreamStatus.h" />
     <ClInclude Include="MediaDataComponent.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -167,7 +170,10 @@
     <ClCompile Include="BaseDataComponent.cpp" />
     <ClCompile Include="BaseLiveStreamEngine.cpp" />
     <ClCompile Include="BaseStreamEngine.cpp" />
+    <ClCompile Include="ConfigurationManager.cpp" />
     <ClCompile Include="FFMPEGManager.cpp" />
+    <ClCompile Include="LiveDataComponent.cpp" />
+    <ClCompile Include="LiveStreamStatus.cpp" />
     <ClCompile Include="MediaDataComponent.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -175,9 +181,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DllConfig.ini" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,6 +19,12 @@ void ConfigurationManager::LoadingConfigurationList()
 	fileStream.close();
 }
 
+void ConfigurationManager::ReadStreamConfigValues(int channelId)
+{
+	this->StreamConfigurationList["Ip"] = "127.0.0.1";
+	this->StreamConfigurationList["ChunckServerIp"] = "127.0.0.1";
+}
+
 ConfigurationManager::ConfigurationManager()
 {
 }

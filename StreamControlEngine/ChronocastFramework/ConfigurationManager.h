@@ -10,9 +10,12 @@ class ConfigurationManager
 private:
 	const string ConfigFileName = "Config.ini";
 public:
-	map<string, string> ConfigurationList;
-	void LoadingConfigurationList();
 	ConfigurationManager();
 	~ConfigurationManager();
+	map<string, string> ConfigurationList;
+	map<string, string> StreamConfigurationList;
+	void LoadingConfigurationList();
+	void ReadStreamConfigValues(int channelId);
+
 };
 

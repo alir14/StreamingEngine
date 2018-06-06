@@ -4,6 +4,7 @@
 #include <map>
 #include "FFMPEGManager.h"
 #include "ConfigurationManager.h"
+#include "LiveDataComponent.h"
 
 using namespace std;
 class BaseStreamEngine
@@ -20,7 +21,6 @@ protected:
 	void KillOldLocalFFMPEGProcesses();
 	void ExecuteOnServer(string script, string processReference, map<string, string> data);
 	bool IsRecordedFileExist(string file);
-
 
 public:
 	BaseStreamEngine();
